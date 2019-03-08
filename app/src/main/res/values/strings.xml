@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NoPlanetB</string>
+
+    <string name="title_activity_splash">Splash</string>
+    <string name="hint_user">username</string>
+    <string name="btn_login">go in!</string>
+    <string name="tv_titulo">No Planet B</string>
+    <string name="tv_subtitle">Too late for living</string>
+    <string name="btn_leave">Leave</string>
+    <string name="btn_stay">Stay</string>
+</resources>

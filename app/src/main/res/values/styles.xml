@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Mi appTheme customizado -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Colores extraidos de la imagen -->
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryDark"></item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AuthButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/button_custom</item>
+    </style>
+
+    <style name="Mainbuton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/b_button</item>
+    </style>
+
+</resources>

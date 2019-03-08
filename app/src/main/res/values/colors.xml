@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B8C2CB</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#283851</color>
+
+    <color name="colorBoton">#B8C2CB</color>
+    <color name="colorPresionado">#283851</color>
+    <color name="colorFocus">#6EC274</color>
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BMain">
+
+    <ImageView
+        android:id="@+id/ivPlanet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/planetearth" />
+
+    <View
+        android:id="@+id/vVista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/scrim" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="89dp"
+        android:orientation="horizontal">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/ivChoete"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/rocketlogo"
+            app:civ_border_color="#EEE"
+            app:civ_border_width="0dp"
+            app:civ_shadow="true"
+            app:civ_shadow_color="#FFF"
+
+            app:civ_shadow_radius="0" />
+
+        <TextView
+            android:id="@+id/tvNoGeneration"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="18dp"
+            android:layout_weight="1"
+            android:text="And no next Generation"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="399dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="112dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linear_texto"
+            android:layout_width="wrap_content"
+            android:layout_height="225dp"
+            android:layout_marginTop="50dp"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <android.support.v4.widget.SwipeRefreshLayout
+                android:id="@+id/myswipe"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/texto"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:padding="15dp"
+                    android:text="A material metaphor is the unifying theory of a rationalized space and a system of motion. The material is grounded in tactile reality, inspired by the study of paper and ink, yet technologically advanced and open to imagination and magic.  What does any of that even mean? " />
+
+            </android.support.v4.widget.SwipeRefreshLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="129dp"
+            android:background="@android:color/white"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnLeave"
+                style="@style/Mainbuton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:text="@string/btn_leave" />
+
+            <Button
+                android:id="@+id/btnStay"
+                style="@style/Mainbuton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="#216FED"
+                android:text="@string/btn_stay" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
